@@ -1,0 +1,695 @@
+!SESSION 2025-06-19 23:39:54.458 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization D:/quartus18.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization D:/quartus18.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 16 2025-06-19 23:40:45.899
+!MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target. ; version: 1.100.0.v20160217-0435
+!STACK 0
+javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.ssl.Alerts.getSSLException(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.fatal(Unknown Source)
+	at sun.security.ssl.Handshaker.fatalSE(Unknown Source)
+	at sun.security.ssl.Handshaker.fatalSE(Unknown Source)
+	at sun.security.ssl.ClientHandshaker.serverCertificate(Unknown Source)
+	at sun.security.ssl.ClientHandshaker.processMessage(Unknown Source)
+	at sun.security.ssl.Handshaker.processLoop(Unknown Source)
+	at sun.security.ssl.Handshaker.process_record(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.readRecord(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.createLayeredSocket(SSLConnectionSocketFactory.java:290)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:259)
+	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:125)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:319)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:363)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:219)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:195)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:86)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:108)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57)
+	at org.apache.http.client.fluent.Executor.execute(Executor.java:206)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.request(IO.java:205)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:68)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:101)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.validator.PKIXValidator.doBuild(Unknown Source)
+	at sun.security.validator.PKIXValidator.engineValidate(Unknown Source)
+	at sun.security.validator.Validator.validate(Unknown Source)
+	at sun.security.ssl.X509TrustManagerImpl.validate(Unknown Source)
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(Unknown Source)
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(Unknown Source)
+	... 27 more
+Caused by: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.provider.certpath.SunCertPathBuilder.build(Unknown Source)
+	at sun.security.provider.certpath.SunCertPathBuilder.engineBuild(Unknown Source)
+	at java.security.cert.CertPathBuilder.build(Unknown Source)
+	... 33 more
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-06-19 23:40:52.703
+!MESSAGE Indexed 'DE10_NANO_ADC' (1 sources, 29 headers) in 0.768 sec: 1,220 declarations; 1,938 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-06-19 23:40:55.820
+!MESSAGE Indexed 'DE10_NANO_ADC_bsp' (160 sources, 258 headers) in 3.05 sec: 6,228 declarations; 10,974 references; 1 unresolved inclusions; 2 syntax errors; 17 unresolved names (0.099%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-06-20 00:02:01.872
+!MESSAGE Indexed 'streaming_reconstruct_bsp' (84 sources, 66 headers) in 0.903 sec: 1,602 declarations; 4,184 references; 119 unresolved inclusions; 6 syntax errors; 196 unresolved names (3.3%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-06-20 00:02:04.725
+!MESSAGE Indexed 'streaming_reconstruct' (1 sources, 0 headers) in 0.008 sec: 1 declarations; 1 references; 1 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-06-20 00:36:42.645
+!MESSAGE Indexed 'test_valid_bsp' (84 sources, 159 headers) in 1.77 sec: 5,713 declarations; 10,122 references; 23 unresolved inclusions; 3 syntax errors; 59 unresolved names (0.37%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-06-20 00:36:43.096
+!MESSAGE Indexed 'test_valid' (1 sources, 0 headers) in 0.002 sec: 1 declarations; 1 references; 1 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 12:05:29.742
+!MESSAGE Executing: [D:/quartus18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x81078]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 12:05:31.840
+!MESSAGE Executing: [D:/quartus18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x81078 /cygdrive/d/year4/fyp/ADC_ref/Final_project/software/test_valid/test_valid.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 12:09:13.753
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 12:09:14.361
+!MESSAGE Executing: [D:/quartus18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x81078]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 12:09:16.469
+!MESSAGE Executing: [D:/quartus18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x81078 /cygdrive/d/year4/fyp/ADC_ref/Final_project/software/test_valid/test_valid.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 12:09:47.962
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 12:09:48.418
+!MESSAGE Executing: [D:/quartus18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x81078]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 12:09:50.128
+!MESSAGE Executing: [D:/quartus18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x81078 /cygdrive/d/year4/fyp/ADC_ref/Final_project/software/test_valid/test_valid.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 12:13:34.994
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 12:13:35.498
+!MESSAGE Executing: [D:/quartus18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x81078]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 12:13:37.357
+!MESSAGE Executing: [D:/quartus18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x81078 /cygdrive/d/year4/fyp/ADC_ref/Final_project/software/test_valid/test_valid.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 12:14:57.403
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 12:14:57.804
+!MESSAGE Executing: [D:/quartus18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x81078]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 12:14:59.893
+!MESSAGE Executing: [D:/quartus18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x81078 /cygdrive/d/year4/fyp/ADC_ref/Final_project/software/test_valid/test_valid.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 12:15:28.935
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 12:15:29.314
+!MESSAGE Executing: [D:/quartus18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x81078]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 12:15:31.043
+!MESSAGE Executing: [D:/quartus18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x81078 /cygdrive/d/year4/fyp/ADC_ref/Final_project/software/test_valid/test_valid.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 12:25:56.757
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 12:25:57.108
+!MESSAGE Executing: [D:/quartus18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x81078]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 12:25:58.902
+!MESSAGE Executing: [D:/quartus18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x81078 /cygdrive/d/year4/fyp/ADC_ref/Final_project/software/test_valid/test_valid.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 12:26:08.892
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 12:26:09.453
+!MESSAGE Executing: [D:/quartus18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x81078]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 12:26:11.228
+!MESSAGE Executing: [D:/quartus18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x81078 /cygdrive/d/year4/fyp/ADC_ref/Final_project/software/test_valid/test_valid.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 12:28:41.926
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 12:28:42.422
+!MESSAGE Executing: [D:/quartus18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x81078]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 12:28:44.234
+!MESSAGE Executing: [D:/quartus18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x81078 /cygdrive/d/year4/fyp/ADC_ref/Final_project/software/test_valid/test_valid.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 12:30:02.209
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 12:30:02.746
+!MESSAGE Executing: [D:/quartus18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x81078]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 12:30:04.545
+!MESSAGE Executing: [D:/quartus18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x81078 /cygdrive/d/year4/fyp/ADC_ref/Final_project/software/test_valid/test_valid.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 12:31:40.441
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 12:31:40.894
+!MESSAGE Executing: [D:/quartus18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x81078]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 12:31:42.607
+!MESSAGE Executing: [D:/quartus18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x81078 /cygdrive/d/year4/fyp/ADC_ref/Final_project/software/test_valid/test_valid.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 14:30:12.849
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 14:30:13.216
+!MESSAGE Executing: [D:/quartus18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x81078]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 14:30:15.133
+!MESSAGE Executing: [D:/quartus18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x81078 /cygdrive/d/year4/fyp/ADC_ref/Final_project/software/streaming_reconstruct/streaming_reconstruct.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 14:30:55.837
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 14:30:56.785
+!MESSAGE Executing: [D:/quartus18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x81078]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 14:30:59.234
+!MESSAGE Executing: [D:/quartus18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x81078 /cygdrive/d/year4/fyp/ADC_ref/Final_project/software/streaming_reconstruct/streaming_reconstruct.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 14:31:19.011
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 14:31:19.826
+!MESSAGE Executing: [D:/quartus18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x81078]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 14:31:21.968
+!MESSAGE Executing: [D:/quartus18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x81078 /cygdrive/d/year4/fyp/ADC_ref/Final_project/software/streaming_reconstruct/streaming_reconstruct.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 14:31:42.893
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 14:31:43.247
+!MESSAGE Executing: [D:/quartus18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x81078]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 14:31:44.920
+!MESSAGE Executing: [D:/quartus18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x81078 /cygdrive/d/year4/fyp/ADC_ref/Final_project/software/streaming_reconstruct/streaming_reconstruct.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 14:32:22.321
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 14:32:22.665
+!MESSAGE Executing: [D:/quartus18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x81078]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 14:32:24.509
+!MESSAGE Executing: [D:/quartus18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x81078 /cygdrive/d/year4/fyp/ADC_ref/Final_project/software/streaming_reconstruct/streaming_reconstruct.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 14:33:01.818
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 14:33:02.159
+!MESSAGE Executing: [D:/quartus18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x81078]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 14:33:03.920
+!MESSAGE Executing: [D:/quartus18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x81078 /cygdrive/d/year4/fyp/ADC_ref/Final_project/software/streaming_reconstruct/streaming_reconstruct.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 14:33:35.408
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 14:33:35.740
+!MESSAGE Executing: [D:/quartus18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x81078]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 14:33:37.414
+!MESSAGE Executing: [D:/quartus18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x81078 /cygdrive/d/year4/fyp/ADC_ref/Final_project/software/streaming_reconstruct/streaming_reconstruct.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 14:34:16.412
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 14:34:16.784
+!MESSAGE Executing: [D:/quartus18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x81078]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 14:34:18.612
+!MESSAGE Executing: [D:/quartus18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x81078 /cygdrive/d/year4/fyp/ADC_ref/Final_project/software/streaming_reconstruct/streaming_reconstruct.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 14:34:30.444
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 14:34:30.764
+!MESSAGE Executing: [D:/quartus18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x81078]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 14:34:32.545
+!MESSAGE Executing: [D:/quartus18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x81078 /cygdrive/d/year4/fyp/ADC_ref/Final_project/software/streaming_reconstruct/streaming_reconstruct.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 14:35:13.582
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 14:35:13.941
+!MESSAGE Executing: [D:/quartus18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x81078]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 14:35:15.684
+!MESSAGE Executing: [D:/quartus18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x81078 /cygdrive/d/year4/fyp/ADC_ref/Final_project/software/streaming_reconstruct/streaming_reconstruct.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 14:35:51.282
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 14:35:51.627
+!MESSAGE Executing: [D:/quartus18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x81078]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 14:35:53.290
+!MESSAGE Executing: [D:/quartus18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x81078 /cygdrive/d/year4/fyp/ADC_ref/Final_project/software/streaming_reconstruct/streaming_reconstruct.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 14:36:43.338
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 14:36:43.700
+!MESSAGE Executing: [D:/quartus18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x81078]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 14:36:45.354
+!MESSAGE Executing: [D:/quartus18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x81078 /cygdrive/d/year4/fyp/ADC_ref/Final_project/software/streaming_reconstruct/streaming_reconstruct.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 14:36:57.801
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 14:36:58.131
+!MESSAGE Executing: [D:/quartus18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x81078]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 14:36:59.928
+!MESSAGE Executing: [D:/quartus18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x81078 /cygdrive/d/year4/fyp/ADC_ref/Final_project/software/streaming_reconstruct/streaming_reconstruct.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 14:37:43.929
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 14:37:44.297
+!MESSAGE Executing: [D:/quartus18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x81078]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 14:37:46.105
+!MESSAGE Executing: [D:/quartus18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x81078 /cygdrive/d/year4/fyp/ADC_ref/Final_project/software/streaming_reconstruct/streaming_reconstruct.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 14:39:27.354
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 14:39:27.713
+!MESSAGE Executing: [D:/quartus18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x81078]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 14:39:29.406
+!MESSAGE Executing: [D:/quartus18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x81078 /cygdrive/d/year4/fyp/ADC_ref/Final_project/software/streaming_reconstruct/streaming_reconstruct.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 14:40:05.864
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 14:40:06.212
+!MESSAGE Executing: [D:/quartus18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x81078]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 14:40:07.860
+!MESSAGE Executing: [D:/quartus18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x81078 /cygdrive/d/year4/fyp/ADC_ref/Final_project/software/streaming_reconstruct/streaming_reconstruct.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 14:41:06.822
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 14:41:07.154
+!MESSAGE Executing: [D:/quartus18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x81078]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 14:41:08.797
+!MESSAGE Executing: [D:/quartus18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x81078 /cygdrive/d/year4/fyp/ADC_ref/Final_project/software/streaming_reconstruct/streaming_reconstruct.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 14:52:57.992
+!MESSAGE Executing: [D:/quartus18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x81078]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 14:52:59.626
+!MESSAGE Executing: [D:/quartus18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x81078 /cygdrive/d/year4/fyp/ADC_ref/Final_project/software/streaming_reconstruct/streaming_reconstruct.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 14:53:46.076
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 14:53:46.428
+!MESSAGE Executing: [D:/quartus18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x81078]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 14:53:48.083
+!MESSAGE Executing: [D:/quartus18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x81078 /cygdrive/d/year4/fyp/ADC_ref/Final_project/software/streaming_reconstruct/streaming_reconstruct.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 14:54:28.153
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 14:54:28.499
+!MESSAGE Executing: [D:/quartus18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x81078]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 14:54:30.178
+!MESSAGE Executing: [D:/quartus18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x81078 /cygdrive/d/year4/fyp/ADC_ref/Final_project/software/streaming_reconstruct/streaming_reconstruct.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 14:57:07.063
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 14:57:07.425
+!MESSAGE Executing: [D:/quartus18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x81078]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 14:57:09.090
+!MESSAGE Executing: [D:/quartus18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x81078 /cygdrive/d/year4/fyp/ADC_ref/Final_project/software/streaming_reconstruct/streaming_reconstruct.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 15:03:59.415
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 15:03:59.769
+!MESSAGE Executing: [D:/quartus18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x81078]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 15:04:01.536
+!MESSAGE Executing: [D:/quartus18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x81078 /cygdrive/d/year4/fyp/ADC_ref/Final_project/software/streaming_reconstruct/streaming_reconstruct.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 15:09:14.133
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 15:09:14.758
+!MESSAGE Executing: [D:/quartus18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x81078]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 15:09:16.733
+!MESSAGE Executing: [D:/quartus18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x81078 /cygdrive/d/year4/fyp/ADC_ref/Final_project/software/streaming_reconstruct/streaming_reconstruct.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 15:29:02.365
+!MESSAGE Executing: [D:/quartus18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x81078]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 15:29:04.029
+!MESSAGE Executing: [D:/quartus18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x81078 /cygdrive/d/year4/fyp/ADC_ref/Final_project/software/streaming_reconstruct/streaming_reconstruct.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 15:29:27.846
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 15:29:28.228
+!MESSAGE Executing: [D:/quartus18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x81078]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 15:29:29.899
+!MESSAGE Executing: [D:/quartus18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x81078 /cygdrive/d/year4/fyp/ADC_ref/Final_project/software/streaming_reconstruct/streaming_reconstruct.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 15:41:55.981
+!MESSAGE Executing: [D:/quartus18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x81078]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 15:41:57.680
+!MESSAGE Executing: [D:/quartus18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x81078 /cygdrive/d/year4/fyp/ADC_ref/Final_project/software/streaming_reconstruct/streaming_reconstruct.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 15:42:59.463
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 15:42:59.847
+!MESSAGE Executing: [D:/quartus18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x81078]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 15:43:01.634
+!MESSAGE Executing: [D:/quartus18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x81078 /cygdrive/d/year4/fyp/ADC_ref/Final_project/software/streaming_reconstruct/streaming_reconstruct.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 15:46:29.217
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 15:46:29.690
+!MESSAGE Executing: [D:/quartus18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x81078]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 15:46:31.417
+!MESSAGE Executing: [D:/quartus18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x81078 /cygdrive/d/year4/fyp/ADC_ref/Final_project/software/streaming_reconstruct/streaming_reconstruct.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 15:58:55.327
+!MESSAGE Executing: [D:/quartus18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x81078]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 15:58:57.083
+!MESSAGE Executing: [D:/quartus18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x81078 /cygdrive/d/year4/fyp/ADC_ref/Final_project/software/streaming_reconstruct/streaming_reconstruct.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 16:00:11.778
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 16:00:12.125
+!MESSAGE Executing: [D:/quartus18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x81078]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 16:00:13.755
+!MESSAGE Executing: [D:/quartus18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x81078 /cygdrive/d/year4/fyp/ADC_ref/Final_project/software/streaming_reconstruct/streaming_reconstruct.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 16:02:26.385
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 16:02:26.730
+!MESSAGE Executing: [D:/quartus18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x81078]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 16:02:28.493
+!MESSAGE Executing: [D:/quartus18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x81078 /cygdrive/d/year4/fyp/ADC_ref/Final_project/software/streaming_reconstruct/streaming_reconstruct.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 16:02:55.987
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 16:02:56.354
+!MESSAGE Executing: [D:/quartus18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x81078]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 16:02:58.124
+!MESSAGE Executing: [D:/quartus18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x81078 /cygdrive/d/year4/fyp/ADC_ref/Final_project/software/streaming_reconstruct/streaming_reconstruct.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 16:03:58.149
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 16:03:58.521
+!MESSAGE Executing: [D:/quartus18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x81078]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 16:04:00.184
+!MESSAGE Executing: [D:/quartus18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x81078 /cygdrive/d/year4/fyp/ADC_ref/Final_project/software/streaming_reconstruct/streaming_reconstruct.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 16:15:19.406
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 16:15:19.776
+!MESSAGE Executing: [D:/quartus18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x81078]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 16:15:21.553
+!MESSAGE Executing: [D:/quartus18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x81078 /cygdrive/d/year4/fyp/ADC_ref/Final_project/software/streaming_reconstruct/streaming_reconstruct.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 16:16:38.651
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 16:16:38.985
+!MESSAGE Executing: [D:/quartus18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x81078]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 16:16:40.762
+!MESSAGE Executing: [D:/quartus18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x81078 /cygdrive/d/year4/fyp/ADC_ref/Final_project/software/streaming_reconstruct/streaming_reconstruct.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 16:18:43.969
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 16:18:44.310
+!MESSAGE Executing: [D:/quartus18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x81078]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 16:18:46.153
+!MESSAGE Executing: [D:/quartus18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x81078 /cygdrive/d/year4/fyp/ADC_ref/Final_project/software/streaming_reconstruct/streaming_reconstruct.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 16:21:17.963
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 16:21:18.313
+!MESSAGE Executing: [D:/quartus18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x81078]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 16:21:19.975
+!MESSAGE Executing: [D:/quartus18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x81078 /cygdrive/d/year4/fyp/ADC_ref/Final_project/software/streaming_reconstruct/streaming_reconstruct.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 16:51:40.264
+!MESSAGE Executing: [D:/quartus18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x81078]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 16:51:41.925
+!MESSAGE Executing: [D:/quartus18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x81078 /cygdrive/d/year4/fyp/ADC_ref/Final_project/software/streaming_reconstruct/streaming_reconstruct.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 16:52:10.009
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 16:52:10.361
+!MESSAGE Executing: [D:/quartus18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x81078]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 16:52:12.108
+!MESSAGE Executing: [D:/quartus18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x81078 /cygdrive/d/year4/fyp/ADC_ref/Final_project/software/streaming_reconstruct/streaming_reconstruct.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 16:52:38.824
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 16:52:39.159
+!MESSAGE Executing: [D:/quartus18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x81078]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 16:52:40.805
+!MESSAGE Executing: [D:/quartus18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x81078 /cygdrive/d/year4/fyp/ADC_ref/Final_project/software/streaming_reconstruct/streaming_reconstruct.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 16:53:15.225
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 16:53:15.561
+!MESSAGE Executing: [D:/quartus18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x81078]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 16:53:17.269
+!MESSAGE Executing: [D:/quartus18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x81078 /cygdrive/d/year4/fyp/ADC_ref/Final_project/software/streaming_reconstruct/streaming_reconstruct.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 17:02:54.393
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 17:02:54.740
+!MESSAGE Executing: [D:/quartus18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x81078]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 17:02:56.411
+!MESSAGE Executing: [D:/quartus18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x81078 /cygdrive/d/year4/fyp/ADC_ref/Final_project/software/streaming_reconstruct/streaming_reconstruct.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 17:14:20.089
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 17:14:20.536
+!MESSAGE Executing: [D:/quartus18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x81078]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 17:14:22.211
+!MESSAGE Executing: [D:/quartus18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x81078 /cygdrive/d/year4/fyp/ADC_ref/Final_project/software/streaming_reconstruct/streaming_reconstruct.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 17:15:33.216
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 17:15:33.557
+!MESSAGE Executing: [D:/quartus18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x81078]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 17:15:35.324
+!MESSAGE Executing: [D:/quartus18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x81078 /cygdrive/d/year4/fyp/ADC_ref/Final_project/software/streaming_reconstruct/streaming_reconstruct.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 17:16:56.600
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 17:16:56.953
+!MESSAGE Executing: [D:/quartus18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x81078]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 17:16:58.733
+!MESSAGE Executing: [D:/quartus18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x81078 /cygdrive/d/year4/fyp/ADC_ref/Final_project/software/streaming_reconstruct/streaming_reconstruct.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 17:24:57.214
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 17:24:57.677
+!MESSAGE Executing: [D:/quartus18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x81078]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 17:24:59.347
+!MESSAGE Executing: [D:/quartus18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x81078 /cygdrive/d/year4/fyp/ADC_ref/Final_project/software/streaming_reconstruct/streaming_reconstruct.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 17:26:59.980
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 17:27:00.356
+!MESSAGE Executing: [D:/quartus18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x81078]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 17:27:02.002
+!MESSAGE Executing: [D:/quartus18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x81078 /cygdrive/d/year4/fyp/ADC_ref/Final_project/software/streaming_reconstruct/streaming_reconstruct.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 17:27:48.238
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 17:27:48.602
+!MESSAGE Executing: [D:/quartus18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x81078]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 17:27:50.276
+!MESSAGE Executing: [D:/quartus18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x81078 /cygdrive/d/year4/fyp/ADC_ref/Final_project/software/streaming_reconstruct/streaming_reconstruct.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 17:40:32.467
+!MESSAGE Executing: [D:/quartus18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x81078]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 17:40:34.142
+!MESSAGE Executing: [D:/quartus18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x81078 /cygdrive/d/year4/fyp/ADC_ref/Final_project/software/streaming_reconstruct/streaming_reconstruct.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 17:40:50.933
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 17:40:51.305
+!MESSAGE Executing: [D:/quartus18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x81078]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 17:40:53.146
+!MESSAGE Executing: [D:/quartus18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x81078 /cygdrive/d/year4/fyp/ADC_ref/Final_project/software/streaming_reconstruct/streaming_reconstruct.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 17:41:50.748
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 17:41:51.092
+!MESSAGE Executing: [D:/quartus18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x81078]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 17:41:52.870
+!MESSAGE Executing: [D:/quartus18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x81078 /cygdrive/d/year4/fyp/ADC_ref/Final_project/software/streaming_reconstruct/streaming_reconstruct.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 17:51:56.032
+!MESSAGE Executing: [D:/quartus18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x81078]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 17:51:57.813
+!MESSAGE Executing: [D:/quartus18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x81078 /cygdrive/d/year4/fyp/ADC_ref/Final_project/software/streaming_reconstruct/streaming_reconstruct.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 17:52:15.981
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 17:52:16.336
+!MESSAGE Executing: [D:/quartus18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x81078]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 17:52:18.115
+!MESSAGE Executing: [D:/quartus18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x81078 /cygdrive/d/year4/fyp/ADC_ref/Final_project/software/streaming_reconstruct/streaming_reconstruct.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 18:22:10.190
+!MESSAGE Executing: [D:/quartus18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x81078]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 18:22:11.846
+!MESSAGE Executing: [D:/quartus18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x81078 /cygdrive/d/year4/fyp/ADC_ref/Final_project/software/streaming_reconstruct/streaming_reconstruct.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 18:23:39.554
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 18:23:39.902
+!MESSAGE Executing: [D:/quartus18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x81078]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 18:23:41.779
+!MESSAGE Executing: [D:/quartus18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x81078 /cygdrive/d/year4/fyp/ADC_ref/Final_project/software/streaming_reconstruct/streaming_reconstruct.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 18:23:58.800
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 18:23:59.154
+!MESSAGE Executing: [D:/quartus18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x81078]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 18:24:00.939
+!MESSAGE Executing: [D:/quartus18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x81078 /cygdrive/d/year4/fyp/ADC_ref/Final_project/software/streaming_reconstruct/streaming_reconstruct.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 18:24:27.781
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 18:24:28.114
+!MESSAGE Executing: [D:/quartus18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x81078]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 18:24:29.755
+!MESSAGE Executing: [D:/quartus18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x81078 /cygdrive/d/year4/fyp/ADC_ref/Final_project/software/streaming_reconstruct/streaming_reconstruct.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 18:30:58.332
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 18:30:58.696
+!MESSAGE Executing: [D:/quartus18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x81078]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 18:31:00.426
+!MESSAGE Executing: [D:/quartus18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x81078 /cygdrive/d/year4/fyp/ADC_ref/Final_project/software/streaming_reconstruct/streaming_reconstruct.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 18:32:07.478
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 18:32:07.805
+!MESSAGE Executing: [D:/quartus18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x81078]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 18:32:09.486
+!MESSAGE Executing: [D:/quartus18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x81078 /cygdrive/d/year4/fyp/ADC_ref/Final_project/software/streaming_reconstruct/streaming_reconstruct.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 18:34:09.721
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 18:34:10.054
+!MESSAGE Executing: [D:/quartus18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x81078]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 18:34:11.717
+!MESSAGE Executing: [D:/quartus18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x81078 /cygdrive/d/year4/fyp/ADC_ref/Final_project/software/streaming_reconstruct/streaming_reconstruct.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 18:34:35.947
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 18:34:36.320
+!MESSAGE Executing: [D:/quartus18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x81078]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2025-06-20 18:34:38.050
+!MESSAGE Executing: [D:/quartus18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x81078 /cygdrive/d/year4/fyp/ADC_ref/Final_project/software/streaming_reconstruct/streaming_reconstruct.elf]

@@ -1,0 +1,1354 @@
+# vsim -gui -l msim_transcript work.aa_tb_top_pipe_n 
+# Start time: 23:45:18 on Jun 19,2025
+# Loading sv_std.std
+# Loading work.aa_tb_top_pipe_n
+# Loading work.reconstruction_top_pipelined_n
+# Loading work.adc_to_fixed
+# Loading work.higher_order_difference_n
+# Loading work.modulo_residual_piped
+# Loading work.mod_divide
+# ** Error: (vsim-3033) D:/year4/fyp/ADC_ref/Final_project/ip/Divs/mod_divide.v(61): Instantiation of 'lpm_divide' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/mod_residual/mod_divide_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/mod_divide.v
+#         Searched libraries:
+#             D:/year4/fyp/ADC_ref/Final_project/simulation/modelsim/work
+# Loading work.anti_difference_stage
+# Loading work.anti_difference_rounding
+# Loading work.anti_diff_div
+# ** Error: (vsim-3033) D:/year4/fyp/ADC_ref/Final_project/ip/Divs/anti_diff_div.v(61): Instantiation of 'lpm_divide' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_1/anti_diff/anti_diff_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/anti_diff_div.v
+#         Searched libraries:
+#             D:/year4/fyp/ADC_ref/Final_project/simulation/modelsim/work
+# Loading work.moving_average
+# Loading work.avg_div
+# ** Error: (vsim-3033) D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(61): Instantiation of 'lpm_divide' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_1/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+#         Searched libraries:
+#             D:/year4/fyp/ADC_ref/Final_project/simulation/modelsim/work
+# ** Error: (vsim-3033) D:/year4/fyp/ADC_ref/Final_project/ip/Divs/anti_diff_div.v(61): Instantiation of 'lpm_divide' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_2/anti_diff/anti_diff_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/anti_diff_div.v
+#         Searched libraries:
+#             D:/year4/fyp/ADC_ref/Final_project/simulation/modelsim/work
+# ** Error: (vsim-3033) D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(61): Instantiation of 'lpm_divide' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_2/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+#         Searched libraries:
+#             D:/year4/fyp/ADC_ref/Final_project/simulation/modelsim/work
+# ** Error: (vsim-3033) D:/year4/fyp/ADC_ref/Final_project/ip/Divs/anti_diff_div.v(61): Instantiation of 'lpm_divide' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_3/anti_diff/anti_diff_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/anti_diff_div.v
+#         Searched libraries:
+#             D:/year4/fyp/ADC_ref/Final_project/simulation/modelsim/work
+# ** Error: (vsim-3033) D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(61): Instantiation of 'lpm_divide' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_3/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+#         Searched libraries:
+#             D:/year4/fyp/ADC_ref/Final_project/simulation/modelsim/work
+# Loading work.fixed_to_dac
+# Error loading design
+# End time: 23:45:18 on Jun 19,2025, Elapsed time: 0:00:00
+# Errors: 7, Warnings: 0
+# Compile of mod_divide.v was successful.
+# Compile of anti_diff_div.v was successful.
+# Compile of avg_div.v was successful.
+# Compile of anti_difference_stage.sv was successful.
+# Compile of HOD_n.sv was successful.
+# Compile of tb_piped_n.sv was successful.
+# Compile of top_piped_n2.sv was successful.
+# Compile of reconstruction_top.sv was successful.
+# Compile of adc_to_fixed.sv was successful.
+# Compile of anti_difference_rounding.sv was successful.
+# Compile of fixed_to_dac.sv was successful with warnings.
+# Compile of fixed_to_float.sv was successful.
+# Compile of floating_to_fixed.sv was successful.
+# Compile of higher_order_difference.sv was successful.
+# Compile of modulo_residual.sv was successful.
+# Compile of modulo_residual_piped.sv was successful.
+# Compile of moving_average.sv was successful.
+# Compile of lpm_divide.v was successful.
+# 18 compiles, 0 failed with no errors.
+vsim -gui -l msim_transcript work.aa_tb_top_pipe_n
+# vsim -gui -l msim_transcript work.aa_tb_top_pipe_n 
+# Start time: 23:52:05 on Jun 19,2025
+# Loading sv_std.std
+# Loading work.aa_tb_top_pipe_n
+# Loading work.reconstruction_top_pipelined_n
+# Loading work.adc_to_fixed
+# Loading work.higher_order_difference_n
+# Loading work.modulo_residual_piped
+# Loading work.mod_divide
+# Loading work.lpm_divide
+# Loading work.anti_difference_stage
+# Loading work.anti_difference_rounding
+# Loading work.anti_diff_div
+# Loading work.moving_average
+# Loading work.avg_div
+# Loading work.fixed_to_dac
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/Higher_orders/tb_piped_n.sv(26): [PCDPC] - Port size (8) does not match connection size (32) for port 'dac_out'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Higher_orders/top_piped_n2.sv(16).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut File: D:/year4/fyp/ADC_ref/Final_project/ip/Higher_orders/top_piped_n2.sv
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'denom'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(43).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_1/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (48) does not match connection size (32) for port 'quotient'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(45).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_1/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'remain'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(46).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_1/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'denom'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(43).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_2/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (48) does not match connection size (32) for port 'quotient'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(45).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_2/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'remain'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(46).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_2/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'denom'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(43).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_3/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (48) does not match connection size (32) for port 'quotient'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(45).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_3/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'remain'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(46).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_3/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+add wave -position end  sim:/aa_tb_top_pipe_n/valid_out
+add wave -position end  sim:/aa_tb_top_pipe_n/test_in
+add wave -position end  sim:/aa_tb_top_pipe_n/start
+add wave -position end  sim:/aa_tb_top_pipe_n/reset
+add wave -position end  sim:/aa_tb_top_pipe_n/reconstructed_sample
+add wave -position end  sim:/aa_tb_top_pipe_n/n
+add wave -position end  sim:/aa_tb_top_pipe_n/delay
+add wave -position end  sim:/aa_tb_top_pipe_n/clk_en
+add wave -position end  sim:/aa_tb_top_pipe_n/clk
+add wave -position end  sim:/aa_tb_top_pipe_n/adc_input
+add wave -position end  sim:/aa_tb_top_pipe_n/uut/stage1_valid
+add wave -position end  sim:/aa_tb_top_pipe_n/uut/stage2_valid
+add wave -position end  sim:/aa_tb_top_pipe_n/uut/stage3_valid
+add wave -position end  sim:/aa_tb_top_pipe_n/uut/adc_out_piped[60]
+add wave -position end  sim:/aa_tb_top_pipe_n/uut/adc_out_piped[61]
+add wave -position end  sim:/aa_tb_top_pipe_n/uut/adc_out_piped[106]
+add wave -position end  sim:/aa_tb_top_pipe_n/uut/adc_out_piped[105]
+run -all
+# ** Note: $stop    : D:/year4/fyp/ADC_ref/Final_project/ip/Higher_orders/tb_piped_n.sv(139)
+#    Time: 17180 ns  Iteration: 0  Instance: /aa_tb_top_pipe_n
+# Break in Module aa_tb_top_pipe_n at D:/year4/fyp/ADC_ref/Final_project/ip/Higher_orders/tb_piped_n.sv line 139
+# Compile of mod_divide.v was successful.
+# Compile of anti_diff_div.v was successful.
+# Compile of avg_div.v was successful.
+# Compile of anti_difference_stage.sv was successful.
+# Compile of HOD_n.sv was successful.
+# Compile of tb_piped_n.sv was successful.
+# Compile of top_piped_n2.sv was successful.
+# Compile of reconstruction_top.sv was successful.
+# Compile of adc_to_fixed.sv was successful.
+# Compile of anti_difference_rounding.sv was successful.
+# Compile of fixed_to_dac.sv was successful with warnings.
+# Compile of fixed_to_float.sv was successful.
+# Compile of floating_to_fixed.sv was successful.
+# Compile of higher_order_difference.sv was successful.
+# Compile of modulo_residual.sv was successful.
+# Compile of modulo_residual_piped.sv was successful.
+# Compile of moving_average.sv was successful.
+# Compile of lpm_divide.v was successful.
+# 18 compiles, 0 failed with no errors.
+restart -f
+# Loading work.aa_tb_top_pipe_n
+# Loading work.reconstruction_top_pipelined_n
+# Loading work.adc_to_fixed
+# Loading work.higher_order_difference_n
+# Loading work.modulo_residual_piped
+# Loading work.mod_divide
+# Loading work.lpm_divide
+# Loading work.anti_difference_stage
+# Loading work.anti_difference_rounding
+# Loading work.anti_diff_div
+# Loading work.moving_average
+# Loading work.avg_div
+# Loading work.fixed_to_dac
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/Higher_orders/tb_piped_n.sv(26): [PCDPC] - Port size (8) does not match connection size (32) for port 'dac_out'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Higher_orders/top_piped_n2.sv(16).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut File: D:/year4/fyp/ADC_ref/Final_project/ip/Higher_orders/top_piped_n2.sv
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'denom'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(43).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_1/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (48) does not match connection size (32) for port 'quotient'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(45).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_1/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'remain'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(46).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_1/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'denom'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(43).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_2/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (48) does not match connection size (32) for port 'quotient'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(45).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_2/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'remain'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(46).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_2/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'denom'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(43).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_3/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (48) does not match connection size (32) for port 'quotient'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(45).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_3/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'remain'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(46).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_3/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+run -all
+# ** Note: $stop    : D:/year4/fyp/ADC_ref/Final_project/ip/Higher_orders/tb_piped_n.sv(139)
+#    Time: 17180 ns  Iteration: 0  Instance: /aa_tb_top_pipe_n
+# Break in Module aa_tb_top_pipe_n at D:/year4/fyp/ADC_ref/Final_project/ip/Higher_orders/tb_piped_n.sv line 139
+# Compile of mod_divide.v was successful.
+# Compile of anti_diff_div.v was successful.
+# Compile of avg_div.v was successful.
+# Compile of anti_difference_stage.sv was successful.
+# Compile of HOD_n.sv was successful.
+# Compile of tb_piped_n.sv was successful.
+# Compile of top_piped_n2.sv was successful.
+# Compile of reconstruction_top.sv was successful.
+# Compile of adc_to_fixed.sv was successful.
+# Compile of anti_difference_rounding.sv was successful.
+# Compile of fixed_to_dac.sv was successful with warnings.
+# Compile of fixed_to_float.sv was successful.
+# Compile of floating_to_fixed.sv was successful.
+# Compile of higher_order_difference.sv was successful.
+# Compile of modulo_residual.sv was successful.
+# Compile of modulo_residual_piped.sv was successful.
+# Compile of moving_average.sv was successful.
+# Compile of lpm_divide.v was successful.
+# 18 compiles, 0 failed with no errors.
+restart -f
+# Loading work.aa_tb_top_pipe_n
+# Loading work.reconstruction_top_pipelined_n
+# Loading work.adc_to_fixed
+# Loading work.higher_order_difference_n
+# Loading work.modulo_residual_piped
+# Loading work.mod_divide
+# Loading work.lpm_divide
+# Loading work.anti_difference_stage
+# Loading work.anti_difference_rounding
+# Loading work.anti_diff_div
+# Loading work.moving_average
+# Loading work.avg_div
+# Loading work.fixed_to_dac
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/Higher_orders/tb_piped_n.sv(26): [PCDPC] - Port size (8) does not match connection size (32) for port 'dac_out'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Higher_orders/top_piped_n2.sv(16).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut File: D:/year4/fyp/ADC_ref/Final_project/ip/Higher_orders/top_piped_n2.sv
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'denom'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(43).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_1/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (48) does not match connection size (32) for port 'quotient'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(45).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_1/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'remain'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(46).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_1/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'denom'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(43).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_2/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (48) does not match connection size (32) for port 'quotient'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(45).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_2/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'remain'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(46).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_2/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'denom'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(43).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_3/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (48) does not match connection size (32) for port 'quotient'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(45).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_3/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'remain'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(46).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_3/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+run -all
+# ** Note: $stop    : D:/year4/fyp/ADC_ref/Final_project/ip/Higher_orders/tb_piped_n.sv(139)
+#    Time: 17180 ns  Iteration: 0  Instance: /aa_tb_top_pipe_n
+# Break in Module aa_tb_top_pipe_n at D:/year4/fyp/ADC_ref/Final_project/ip/Higher_orders/tb_piped_n.sv line 139
+add wave -position end  sim:/aa_tb_top_pipe_n/uut/dac_out
+restart -f
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/Higher_orders/tb_piped_n.sv(26): [PCDPC] - Port size (8) does not match connection size (32) for port 'dac_out'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Higher_orders/top_piped_n2.sv(16).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut File: D:/year4/fyp/ADC_ref/Final_project/ip/Higher_orders/top_piped_n2.sv
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'denom'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(43).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_1/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (48) does not match connection size (32) for port 'quotient'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(45).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_1/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'remain'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(46).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_1/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'denom'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(43).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_2/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (48) does not match connection size (32) for port 'quotient'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(45).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_2/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'remain'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(46).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_2/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'denom'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(43).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_3/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (48) does not match connection size (32) for port 'quotient'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(45).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_3/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'remain'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(46).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_3/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+run -all
+# ** Note: $stop    : D:/year4/fyp/ADC_ref/Final_project/ip/Higher_orders/tb_piped_n.sv(139)
+#    Time: 17180 ns  Iteration: 0  Instance: /aa_tb_top_pipe_n
+# Break in Module aa_tb_top_pipe_n at D:/year4/fyp/ADC_ref/Final_project/ip/Higher_orders/tb_piped_n.sv line 139
+# Compile of mod_divide.v was successful.
+# Compile of anti_diff_div.v was successful.
+# Compile of avg_div.v was successful.
+# Compile of anti_difference_stage.sv was successful.
+# Compile of HOD_n.sv was successful.
+# Compile of tb_piped_n.sv was successful.
+# Compile of top_piped_n2.sv was successful.
+# Compile of reconstruction_top.sv was successful.
+# Compile of adc_to_fixed.sv was successful.
+# Compile of anti_difference_rounding.sv was successful.
+# Compile of fixed_to_dac.sv was successful with warnings.
+# Compile of fixed_to_float.sv was successful.
+# Compile of floating_to_fixed.sv was successful.
+# Compile of higher_order_difference.sv was successful.
+# Compile of modulo_residual.sv was successful.
+# Compile of modulo_residual_piped.sv was successful.
+# Compile of moving_average.sv was successful.
+# Compile of lpm_divide.v was successful.
+# 18 compiles, 0 failed with no errors.
+restart -f
+# Loading work.aa_tb_top_pipe_n
+# Loading work.reconstruction_top_pipelined_n
+# Loading work.adc_to_fixed
+# Loading work.higher_order_difference_n
+# Loading work.modulo_residual_piped
+# Loading work.mod_divide
+# Loading work.lpm_divide
+# Loading work.anti_difference_stage
+# Loading work.anti_difference_rounding
+# Loading work.anti_diff_div
+# Loading work.moving_average
+# Loading work.avg_div
+# Loading work.fixed_to_dac
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/Higher_orders/tb_piped_n.sv(26): [PCDPC] - Port size (8) does not match connection size (32) for port 'dac_out'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Higher_orders/top_piped_n2.sv(16).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut File: D:/year4/fyp/ADC_ref/Final_project/ip/Higher_orders/top_piped_n2.sv
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'denom'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(43).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_1/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (48) does not match connection size (32) for port 'quotient'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(45).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_1/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'remain'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(46).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_1/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'denom'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(43).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_2/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (48) does not match connection size (32) for port 'quotient'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(45).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_2/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'remain'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(46).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_2/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'denom'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(43).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_3/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (48) does not match connection size (32) for port 'quotient'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(45).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_3/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'remain'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(46).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_3/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+run -all
+# ** Note: $stop    : D:/year4/fyp/ADC_ref/Final_project/ip/Higher_orders/tb_piped_n.sv(139)
+#    Time: 17180 ns  Iteration: 0  Instance: /aa_tb_top_pipe_n
+# Break in Module aa_tb_top_pipe_n at D:/year4/fyp/ADC_ref/Final_project/ip/Higher_orders/tb_piped_n.sv line 139
+add wave -position end  sim:/aa_tb_top_pipe_n/uut/conversion_in
+restart -f
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/Higher_orders/tb_piped_n.sv(26): [PCDPC] - Port size (8) does not match connection size (32) for port 'dac_out'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Higher_orders/top_piped_n2.sv(16).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut File: D:/year4/fyp/ADC_ref/Final_project/ip/Higher_orders/top_piped_n2.sv
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'denom'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(43).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_1/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (48) does not match connection size (32) for port 'quotient'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(45).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_1/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'remain'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(46).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_1/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'denom'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(43).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_2/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (48) does not match connection size (32) for port 'quotient'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(45).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_2/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'remain'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(46).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_2/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'denom'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(43).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_3/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (48) does not match connection size (32) for port 'quotient'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(45).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_3/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'remain'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(46).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_3/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+run -all
+# ** Note: $stop    : D:/year4/fyp/ADC_ref/Final_project/ip/Higher_orders/tb_piped_n.sv(139)
+#    Time: 17180 ns  Iteration: 0  Instance: /aa_tb_top_pipe_n
+# Break in Module aa_tb_top_pipe_n at D:/year4/fyp/ADC_ref/Final_project/ip/Higher_orders/tb_piped_n.sv line 139
+add wave -position end  sim:/aa_tb_top_pipe_n/uut/conversion_in_intermediate
+restart -f
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/Higher_orders/tb_piped_n.sv(26): [PCDPC] - Port size (8) does not match connection size (32) for port 'dac_out'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Higher_orders/top_piped_n2.sv(16).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut File: D:/year4/fyp/ADC_ref/Final_project/ip/Higher_orders/top_piped_n2.sv
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'denom'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(43).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_1/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (48) does not match connection size (32) for port 'quotient'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(45).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_1/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'remain'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(46).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_1/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'denom'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(43).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_2/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (48) does not match connection size (32) for port 'quotient'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(45).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_2/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'remain'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(46).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_2/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'denom'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(43).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_3/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (48) does not match connection size (32) for port 'quotient'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(45).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_3/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'remain'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(46).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_3/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+run -all
+# ** Note: $stop    : D:/year4/fyp/ADC_ref/Final_project/ip/Higher_orders/tb_piped_n.sv(139)
+#    Time: 17180 ns  Iteration: 0  Instance: /aa_tb_top_pipe_n
+# Break in Module aa_tb_top_pipe_n at D:/year4/fyp/ADC_ref/Final_project/ip/Higher_orders/tb_piped_n.sv line 139
+add wave -position end  sim:/aa_tb_top_pipe_n/uut/stage1_out
+add wave -position end  sim:/aa_tb_top_pipe_n/uut/stage2_out
+# Compile of mod_divide.v was successful.
+# Compile of anti_diff_div.v was successful.
+# Compile of avg_div.v was successful.
+# Compile of anti_difference_stage.sv was successful.
+# Compile of HOD_n.sv was successful.
+# Compile of tb_piped_n.sv was successful.
+# Compile of top_piped_n2.sv was successful.
+# Compile of reconstruction_top.sv was successful.
+# Compile of adc_to_fixed.sv was successful.
+# Compile of anti_difference_rounding.sv was successful.
+# Compile of fixed_to_dac.sv was successful with warnings.
+# Compile of fixed_to_float.sv was successful.
+# Compile of floating_to_fixed.sv was successful.
+# Compile of higher_order_difference.sv was successful.
+# Compile of modulo_residual.sv was successful.
+# Compile of modulo_residual_piped.sv was successful.
+# Compile of moving_average.sv was successful.
+# Compile of lpm_divide.v was successful.
+# 18 compiles, 0 failed with no errors.
+restart -f
+# Loading work.aa_tb_top_pipe_n
+# Loading work.reconstruction_top_pipelined_n
+# Loading work.adc_to_fixed
+# Loading work.higher_order_difference_n
+# Loading work.modulo_residual_piped
+# Loading work.mod_divide
+# Loading work.lpm_divide
+# Loading work.anti_difference_stage
+# Loading work.anti_difference_rounding
+# Loading work.anti_diff_div
+# Loading work.moving_average
+# Loading work.avg_div
+# Loading work.fixed_to_dac
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/Higher_orders/tb_piped_n.sv(26): [PCDPC] - Port size (8) does not match connection size (32) for port 'dac_out'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Higher_orders/top_piped_n2.sv(16).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut File: D:/year4/fyp/ADC_ref/Final_project/ip/Higher_orders/top_piped_n2.sv
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'denom'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(43).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_1/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (48) does not match connection size (32) for port 'quotient'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(45).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_1/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'remain'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(46).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_1/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'denom'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(43).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_2/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (48) does not match connection size (32) for port 'quotient'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(45).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_2/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'remain'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(46).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_2/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'denom'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(43).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_3/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (48) does not match connection size (32) for port 'quotient'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(45).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_3/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'remain'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(46).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_3/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+run -all
+# ** Note: $stop    : D:/year4/fyp/ADC_ref/Final_project/ip/Higher_orders/tb_piped_n.sv(139)
+#    Time: 17180 ns  Iteration: 0  Instance: /aa_tb_top_pipe_n
+# Break in Module aa_tb_top_pipe_n at D:/year4/fyp/ADC_ref/Final_project/ip/Higher_orders/tb_piped_n.sv line 139
+add wave -position end  sim:/aa_tb_top_pipe_n/uut/modulo_residual_out
+restart -f
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/Higher_orders/tb_piped_n.sv(26): [PCDPC] - Port size (8) does not match connection size (32) for port 'dac_out'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Higher_orders/top_piped_n2.sv(16).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut File: D:/year4/fyp/ADC_ref/Final_project/ip/Higher_orders/top_piped_n2.sv
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'denom'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(43).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_1/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (48) does not match connection size (32) for port 'quotient'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(45).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_1/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'remain'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(46).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_1/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'denom'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(43).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_2/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (48) does not match connection size (32) for port 'quotient'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(45).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_2/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'remain'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(46).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_2/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'denom'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(43).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_3/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (48) does not match connection size (32) for port 'quotient'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(45).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_3/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'remain'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(46).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_3/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+run -all
+# ** Note: $stop    : D:/year4/fyp/ADC_ref/Final_project/ip/Higher_orders/tb_piped_n.sv(139)
+#    Time: 17180 ns  Iteration: 0  Instance: /aa_tb_top_pipe_n
+# Break in Module aa_tb_top_pipe_n at D:/year4/fyp/ADC_ref/Final_project/ip/Higher_orders/tb_piped_n.sv line 139
+add wave -position end  sim:/aa_tb_top_pipe_n/uut/adc_out
+add wave -position end  sim:/aa_tb_top_pipe_n/uut/diff_out
+restart -f
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/Higher_orders/tb_piped_n.sv(26): [PCDPC] - Port size (8) does not match connection size (32) for port 'dac_out'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Higher_orders/top_piped_n2.sv(16).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut File: D:/year4/fyp/ADC_ref/Final_project/ip/Higher_orders/top_piped_n2.sv
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'denom'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(43).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_1/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (48) does not match connection size (32) for port 'quotient'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(45).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_1/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'remain'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(46).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_1/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'denom'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(43).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_2/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (48) does not match connection size (32) for port 'quotient'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(45).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_2/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'remain'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(46).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_2/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'denom'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(43).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_3/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (48) does not match connection size (32) for port 'quotient'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(45).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_3/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'remain'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(46).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_3/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+run -all
+# ** Note: $stop    : D:/year4/fyp/ADC_ref/Final_project/ip/Higher_orders/tb_piped_n.sv(139)
+#    Time: 17180 ns  Iteration: 0  Instance: /aa_tb_top_pipe_n
+# Break in Module aa_tb_top_pipe_n at D:/year4/fyp/ADC_ref/Final_project/ip/Higher_orders/tb_piped_n.sv line 139
+add wave -position end  sim:/aa_tb_top_pipe_n/uut/mod_residual/residual_out
+add wave -position end  sim:/aa_tb_top_pipe_n/uut/mod_residual/mod_remain
+add wave -position end  sim:/aa_tb_top_pipe_n/uut/mod_residual/mod_numer
+add wave -position end  sim:/aa_tb_top_pipe_n/uut/mod_residual/mod_denom
+restart -f
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/Higher_orders/tb_piped_n.sv(26): [PCDPC] - Port size (8) does not match connection size (32) for port 'dac_out'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Higher_orders/top_piped_n2.sv(16).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut File: D:/year4/fyp/ADC_ref/Final_project/ip/Higher_orders/top_piped_n2.sv
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'denom'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(43).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_1/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (48) does not match connection size (32) for port 'quotient'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(45).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_1/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'remain'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(46).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_1/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'denom'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(43).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_2/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (48) does not match connection size (32) for port 'quotient'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(45).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_2/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'remain'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(46).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_2/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'denom'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(43).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_3/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (48) does not match connection size (32) for port 'quotient'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(45).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_3/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'remain'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(46).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_3/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+run -all
+# ** Note: $stop    : D:/year4/fyp/ADC_ref/Final_project/ip/Higher_orders/tb_piped_n.sv(139)
+#    Time: 17180 ns  Iteration: 0  Instance: /aa_tb_top_pipe_n
+# Break in Module aa_tb_top_pipe_n at D:/year4/fyp/ADC_ref/Final_project/ip/Higher_orders/tb_piped_n.sv line 139
+# Compile of mod_divide.v was successful.
+# Compile of anti_diff_div.v was successful.
+# Compile of avg_div.v was successful.
+# Compile of anti_difference_stage.sv was successful.
+# Compile of HOD_n.sv was successful.
+# Compile of tb_piped_n.sv was successful.
+# Compile of top_piped_n2.sv was successful.
+# Compile of reconstruction_top.sv was successful.
+# Compile of adc_to_fixed.sv was successful.
+# Compile of anti_difference_rounding.sv was successful.
+# Compile of fixed_to_dac.sv was successful with warnings.
+# Compile of fixed_to_float.sv was successful.
+# Compile of floating_to_fixed.sv was successful.
+# Compile of higher_order_difference.sv was successful.
+# Compile of modulo_residual.sv was successful.
+# Compile of modulo_residual_piped.sv was successful.
+# Compile of moving_average.sv was successful.
+# Compile of lpm_divide.v was successful.
+# 18 compiles, 0 failed with no errors.
+restart -f
+# Loading work.aa_tb_top_pipe_n
+# Loading work.reconstruction_top_pipelined_n
+# Loading work.adc_to_fixed
+# Loading work.higher_order_difference_n
+# Loading work.modulo_residual_piped
+# Loading work.mod_divide
+# Loading work.lpm_divide
+# Loading work.anti_difference_stage
+# Loading work.anti_difference_rounding
+# Loading work.anti_diff_div
+# Loading work.moving_average
+# Loading work.avg_div
+# Loading work.fixed_to_dac
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/Higher_orders/tb_piped_n.sv(26): [PCDPC] - Port size (8) does not match connection size (32) for port 'dac_out'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Higher_orders/top_piped_n2.sv(16).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut File: D:/year4/fyp/ADC_ref/Final_project/ip/Higher_orders/top_piped_n2.sv
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'denom'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(43).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_1/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (48) does not match connection size (32) for port 'quotient'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(45).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_1/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'remain'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(46).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_1/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'denom'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(43).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_2/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (48) does not match connection size (32) for port 'quotient'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(45).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_2/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'remain'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(46).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_2/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'denom'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(43).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_3/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (48) does not match connection size (32) for port 'quotient'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(45).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_3/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'remain'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(46).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_3/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+run -all
+# ** Note: $stop    : D:/year4/fyp/ADC_ref/Final_project/ip/Higher_orders/tb_piped_n.sv(139)
+#    Time: 17180 ns  Iteration: 0  Instance: /aa_tb_top_pipe_n
+# Break in Module aa_tb_top_pipe_n at D:/year4/fyp/ADC_ref/Final_project/ip/Higher_orders/tb_piped_n.sv line 139
+# Compile of mod_divide.v was successful.
+# Compile of anti_diff_div.v was successful.
+# Compile of avg_div.v was successful.
+# Compile of anti_difference_stage.sv was successful.
+# Compile of HOD_n.sv was successful.
+# Compile of tb_piped_n.sv was successful.
+# Compile of top_piped_n2.sv was successful.
+# Compile of reconstruction_top.sv was successful.
+# Compile of adc_to_fixed.sv was successful.
+# Compile of anti_difference_rounding.sv was successful.
+# Compile of fixed_to_dac.sv was successful with warnings.
+# Compile of fixed_to_float.sv was successful.
+# Compile of floating_to_fixed.sv was successful.
+# Compile of higher_order_difference.sv was successful.
+# Compile of modulo_residual.sv was successful.
+# Compile of modulo_residual_piped.sv was successful.
+# Compile of moving_average.sv was successful.
+# Compile of 220model.v was successful.
+# 18 compiles, 0 failed with no errors.
+restart -f
+# Loading work.aa_tb_top_pipe_n
+# Loading work.reconstruction_top_pipelined_n
+# Loading work.adc_to_fixed
+# Loading work.higher_order_difference_n
+# Loading work.modulo_residual_piped
+# Loading work.mod_divide
+# Loading work.lpm_divide
+# Loading work.LPM_HINT_EVALUATION
+# Loading work.anti_difference_stage
+# Loading work.anti_difference_rounding
+# Loading work.anti_diff_div
+# Loading work.moving_average
+# Loading work.avg_div
+# Loading work.fixed_to_dac
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/Higher_orders/tb_piped_n.sv(26): [PCDPC] - Port size (8) does not match connection size (32) for port 'dac_out'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Higher_orders/top_piped_n2.sv(16).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut File: D:/year4/fyp/ADC_ref/Final_project/ip/Higher_orders/top_piped_n2.sv
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'denom'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(43).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_1/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (48) does not match connection size (32) for port 'quotient'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(45).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_1/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'remain'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(46).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_1/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'denom'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(43).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_2/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (48) does not match connection size (32) for port 'quotient'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(45).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_2/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'remain'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(46).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_2/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'denom'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(43).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_3/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (48) does not match connection size (32) for port 'quotient'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(45).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_3/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'remain'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(46).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_3/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+run -all
+# ** Note: $stop    : D:/year4/fyp/ADC_ref/Final_project/ip/Higher_orders/tb_piped_n.sv(139)
+#    Time: 17180 ns  Iteration: 0  Instance: /aa_tb_top_pipe_n
+# Break in Module aa_tb_top_pipe_n at D:/year4/fyp/ADC_ref/Final_project/ip/Higher_orders/tb_piped_n.sv line 139
+add wave -position 10  sim:/aa_tb_top_pipe_n/uut/adc_out_piped[148]
+restart -f
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/Higher_orders/tb_piped_n.sv(26): [PCDPC] - Port size (8) does not match connection size (32) for port 'dac_out'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Higher_orders/top_piped_n2.sv(16).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut File: D:/year4/fyp/ADC_ref/Final_project/ip/Higher_orders/top_piped_n2.sv
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'denom'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(43).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_1/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (48) does not match connection size (32) for port 'quotient'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(45).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_1/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'remain'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(46).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_1/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'denom'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(43).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_2/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (48) does not match connection size (32) for port 'quotient'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(45).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_2/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'remain'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(46).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_2/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'denom'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(43).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_3/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (48) does not match connection size (32) for port 'quotient'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(45).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_3/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'remain'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(46).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_3/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+run -all
+# ** Note: $stop    : D:/year4/fyp/ADC_ref/Final_project/ip/Higher_orders/tb_piped_n.sv(139)
+#    Time: 17180 ns  Iteration: 0  Instance: /aa_tb_top_pipe_n
+# Break in Module aa_tb_top_pipe_n at D:/year4/fyp/ADC_ref/Final_project/ip/Higher_orders/tb_piped_n.sv line 139
+add wave -position end  sim:/aa_tb_top_pipe_n/uut/diff_calc/prev[0]
+add wave -position end  sim:/aa_tb_top_pipe_n/uut/diff_calc/prev[1]
+add wave -position end  sim:/aa_tb_top_pipe_n/uut/diff_calc/differences[0]
+add wave -position end  sim:/aa_tb_top_pipe_n/uut/diff_calc/differences[1]
+add wave -position end  sim:/aa_tb_top_pipe_n/uut/diff_calc/diff_out
+restart -f
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/Higher_orders/tb_piped_n.sv(26): [PCDPC] - Port size (8) does not match connection size (32) for port 'dac_out'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Higher_orders/top_piped_n2.sv(16).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut File: D:/year4/fyp/ADC_ref/Final_project/ip/Higher_orders/top_piped_n2.sv
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'denom'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(43).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_1/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (48) does not match connection size (32) for port 'quotient'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(45).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_1/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'remain'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(46).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_1/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'denom'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(43).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_2/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (48) does not match connection size (32) for port 'quotient'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(45).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_2/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'remain'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(46).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_2/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'denom'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(43).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_3/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (48) does not match connection size (32) for port 'quotient'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(45).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_3/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'remain'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(46).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_3/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+run -all
+# ** Note: $stop    : D:/year4/fyp/ADC_ref/Final_project/ip/Higher_orders/tb_piped_n.sv(139)
+#    Time: 17180 ns  Iteration: 0  Instance: /aa_tb_top_pipe_n
+# Break in Module aa_tb_top_pipe_n at D:/year4/fyp/ADC_ref/Final_project/ip/Higher_orders/tb_piped_n.sv line 139
+# Compile of mod_divide.v was successful.
+# Compile of anti_diff_div.v was successful.
+# Compile of avg_div.v was successful.
+# Compile of anti_difference_stage.sv was successful.
+# Compile of HOD_n.sv was successful.
+# Compile of tb_piped_n.sv was successful.
+# Compile of top_piped_n2.sv was successful.
+# Compile of reconstruction_top.sv was successful.
+# Compile of adc_to_fixed.sv was successful.
+# Compile of anti_difference_rounding.sv was successful.
+# Compile of fixed_to_dac.sv was successful with warnings.
+# Compile of fixed_to_float.sv was successful.
+# Compile of floating_to_fixed.sv was successful.
+# Compile of higher_order_difference.sv was successful.
+# Compile of modulo_residual.sv was successful.
+# Compile of modulo_residual_piped.sv was successful.
+# Compile of moving_average.sv was successful.
+# Compile of 220model.v was successful.
+# 18 compiles, 0 failed with no errors.
+restart -f
+# Loading work.aa_tb_top_pipe_n
+# Loading work.reconstruction_top_pipelined_n
+# Loading work.adc_to_fixed
+# Loading work.higher_order_difference_n
+# Loading work.modulo_residual_piped
+# Loading work.mod_divide
+# Loading work.lpm_divide
+# Loading work.LPM_HINT_EVALUATION
+# Loading work.anti_difference_stage
+# Loading work.anti_difference_rounding
+# Loading work.anti_diff_div
+# Loading work.moving_average
+# Loading work.avg_div
+# Loading work.fixed_to_dac
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/Higher_orders/tb_piped_n.sv(26): [PCDPC] - Port size (8) does not match connection size (32) for port 'dac_out'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Higher_orders/top_piped_n2.sv(16).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut File: D:/year4/fyp/ADC_ref/Final_project/ip/Higher_orders/top_piped_n2.sv
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'denom'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(43).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_1/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (48) does not match connection size (32) for port 'quotient'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(45).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_1/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'remain'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(46).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_1/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'denom'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(43).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_2/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (48) does not match connection size (32) for port 'quotient'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(45).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_2/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'remain'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(46).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_2/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'denom'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(43).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_3/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (48) does not match connection size (32) for port 'quotient'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(45).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_3/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'remain'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(46).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_3/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+run -all
+# ** Note: $stop    : D:/year4/fyp/ADC_ref/Final_project/ip/Higher_orders/tb_piped_n.sv(139)
+#    Time: 17180 ns  Iteration: 0  Instance: /aa_tb_top_pipe_n
+# Break in Module aa_tb_top_pipe_n at D:/year4/fyp/ADC_ref/Final_project/ip/Higher_orders/tb_piped_n.sv line 139
+# Compile of mod_divide.v was successful.
+# Compile of anti_diff_div.v was successful.
+# Compile of avg_div.v was successful.
+# Compile of anti_difference_stage.sv was successful.
+# Compile of HOD_n.sv was successful.
+# Compile of tb_piped_n.sv was successful.
+# Compile of top_piped_n2.sv was successful.
+# Compile of reconstruction_top.sv was successful.
+# Compile of adc_to_fixed.sv was successful.
+# Compile of anti_difference_rounding.sv was successful.
+# Compile of fixed_to_dac.sv was successful with warnings.
+# Compile of fixed_to_float.sv was successful.
+# Compile of floating_to_fixed.sv was successful.
+# Compile of higher_order_difference.sv was successful.
+# Compile of modulo_residual.sv was successful.
+# Compile of modulo_residual_piped.sv was successful.
+# Compile of moving_average.sv was successful.
+# Compile of 220model.v was successful.
+# 18 compiles, 0 failed with no errors.
+restart -f
+# Loading work.aa_tb_top_pipe_n
+# Loading work.reconstruction_top_pipelined_n
+# Loading work.adc_to_fixed
+# Loading work.higher_order_difference_n
+# Loading work.modulo_residual_piped
+# Loading work.mod_divide
+# Loading work.lpm_divide
+# Loading work.LPM_HINT_EVALUATION
+# Loading work.anti_difference_stage
+# Loading work.anti_difference_rounding
+# Loading work.anti_diff_div
+# Loading work.moving_average
+# Loading work.avg_div
+# Loading work.fixed_to_dac
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/Higher_orders/tb_piped_n.sv(26): [PCDPC] - Port size (8) does not match connection size (32) for port 'dac_out'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Higher_orders/top_piped_n2.sv(16).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut File: D:/year4/fyp/ADC_ref/Final_project/ip/Higher_orders/top_piped_n2.sv
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'denom'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(43).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_1/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (48) does not match connection size (32) for port 'quotient'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(45).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_1/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'remain'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(46).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_1/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'denom'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(43).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_2/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (48) does not match connection size (32) for port 'quotient'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(45).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_2/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'remain'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(46).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_2/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'denom'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(43).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_3/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (48) does not match connection size (32) for port 'quotient'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(45).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_3/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'remain'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(46).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_3/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+run -all
+# ** Note: $stop    : D:/year4/fyp/ADC_ref/Final_project/ip/Higher_orders/tb_piped_n.sv(139)
+#    Time: 17180 ns  Iteration: 0  Instance: /aa_tb_top_pipe_n
+# Break in Module aa_tb_top_pipe_n at D:/year4/fyp/ADC_ref/Final_project/ip/Higher_orders/tb_piped_n.sv line 139
+# Compile of mod_divide.v was successful.
+# Compile of anti_diff_div.v was successful.
+# Compile of avg_div.v was successful.
+# Compile of anti_difference_stage.sv was successful.
+# Compile of HOD_n.sv was successful.
+# Compile of tb_piped_n.sv was successful.
+# Compile of top_piped_n2.sv was successful.
+# Compile of reconstruction_top.sv was successful.
+# Compile of adc_to_fixed.sv was successful.
+# Compile of anti_difference_rounding.sv was successful.
+# Compile of fixed_to_dac.sv was successful with warnings.
+# Compile of fixed_to_float.sv was successful.
+# Compile of floating_to_fixed.sv was successful.
+# Compile of higher_order_difference.sv was successful.
+# Compile of modulo_residual.sv was successful.
+# Compile of modulo_residual_piped.sv was successful.
+# Compile of moving_average.sv was successful.
+# Compile of 220model.v was successful.
+# 18 compiles, 0 failed with no errors.
+restart -f
+# Loading work.aa_tb_top_pipe_n
+# Loading work.reconstruction_top_pipelined_n
+# Loading work.adc_to_fixed
+# Loading work.higher_order_difference_n
+# Loading work.modulo_residual_piped
+# Loading work.mod_divide
+# Loading work.lpm_divide
+# Loading work.LPM_HINT_EVALUATION
+# Loading work.anti_difference_stage
+# Loading work.anti_difference_rounding
+# Loading work.anti_diff_div
+# Loading work.moving_average
+# Loading work.avg_div
+# Loading work.fixed_to_dac
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/Higher_orders/tb_piped_n.sv(26): [PCDPC] - Port size (8) does not match connection size (32) for port 'dac_out'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Higher_orders/top_piped_n2.sv(16).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut File: D:/year4/fyp/ADC_ref/Final_project/ip/Higher_orders/top_piped_n2.sv
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'denom'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(43).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_1/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (48) does not match connection size (32) for port 'quotient'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(45).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_1/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'remain'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(46).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_1/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'denom'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(43).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_2/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (48) does not match connection size (32) for port 'quotient'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(45).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_2/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'remain'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(46).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_2/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'denom'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(43).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_3/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (48) does not match connection size (32) for port 'quotient'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(45).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_3/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'remain'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(46).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_3/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+run -all
+# ** Note: $stop    : D:/year4/fyp/ADC_ref/Final_project/ip/Higher_orders/tb_piped_n.sv(139)
+#    Time: 17180 ns  Iteration: 0  Instance: /aa_tb_top_pipe_n
+# Break in Module aa_tb_top_pipe_n at D:/year4/fyp/ADC_ref/Final_project/ip/Higher_orders/tb_piped_n.sv line 139
+# Compile of mod_divide.v was successful.
+# Compile of anti_diff_div.v was successful.
+# Compile of avg_div.v was successful.
+# Compile of anti_difference_stage.sv was successful.
+# Compile of HOD_n.sv was successful.
+# Compile of tb_piped_n.sv was successful.
+# Compile of top_piped_n2.sv was successful.
+# Compile of reconstruction_top.sv was successful.
+# Compile of adc_to_fixed.sv was successful.
+# Compile of anti_difference_rounding.sv was successful.
+# Compile of fixed_to_dac.sv was successful with warnings.
+# Compile of fixed_to_float.sv was successful.
+# Compile of floating_to_fixed.sv was successful.
+# Compile of higher_order_difference.sv was successful.
+# Compile of modulo_residual.sv was successful.
+# Compile of modulo_residual_piped.sv was successful.
+# Compile of moving_average.sv was successful.
+# Compile of 220model.v was successful.
+# 18 compiles, 0 failed with no errors.
+restart -f
+# Loading work.aa_tb_top_pipe_n
+# Loading work.reconstruction_top_pipelined_n
+# Loading work.adc_to_fixed
+# Loading work.higher_order_difference_n
+# Loading work.modulo_residual_piped
+# Loading work.mod_divide
+# Loading work.lpm_divide
+# Loading work.LPM_HINT_EVALUATION
+# Loading work.anti_difference_stage
+# Loading work.anti_difference_rounding
+# Loading work.anti_diff_div
+# Loading work.moving_average
+# Loading work.avg_div
+# Loading work.fixed_to_dac
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/Higher_orders/tb_piped_n.sv(26): [PCDPC] - Port size (8) does not match connection size (32) for port 'dac_out'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Higher_orders/top_piped_n2.sv(16).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut File: D:/year4/fyp/ADC_ref/Final_project/ip/Higher_orders/top_piped_n2.sv
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'denom'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(43).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_1/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (48) does not match connection size (32) for port 'quotient'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(45).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_1/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'remain'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(46).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_1/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'denom'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(43).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_2/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (48) does not match connection size (32) for port 'quotient'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(45).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_2/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'remain'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(46).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_2/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'denom'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(43).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_3/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (48) does not match connection size (32) for port 'quotient'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(45).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_3/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'remain'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(46).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_3/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+run -all
+# ** Note: $stop    : D:/year4/fyp/ADC_ref/Final_project/ip/Higher_orders/tb_piped_n.sv(139)
+#    Time: 17180 ns  Iteration: 0  Instance: /aa_tb_top_pipe_n
+# Break in Module aa_tb_top_pipe_n at D:/year4/fyp/ADC_ref/Final_project/ip/Higher_orders/tb_piped_n.sv line 139
+# Compile of mod_divide.v was successful.
+# Compile of anti_diff_div.v was successful.
+# Compile of avg_div.v was successful.
+# Compile of anti_difference_stage.sv was successful.
+# Compile of HOD_n.sv was successful.
+# Compile of tb_piped_n.sv was successful.
+# Compile of top_piped_n2.sv was successful.
+# Compile of reconstruction_top.sv was successful.
+# Compile of adc_to_fixed.sv was successful.
+# Compile of anti_difference_rounding.sv was successful.
+# Compile of fixed_to_dac.sv was successful with warnings.
+# Compile of fixed_to_float.sv was successful.
+# Compile of floating_to_fixed.sv was successful.
+# Compile of higher_order_difference.sv was successful.
+# Compile of modulo_residual.sv was successful.
+# Compile of modulo_residual_piped.sv was successful.
+# Compile of moving_average.sv was successful.
+# Compile of 220model.v was successful.
+# 18 compiles, 0 failed with no errors.
+restart -f
+# Loading work.aa_tb_top_pipe_n
+# Loading work.reconstruction_top_pipelined_n
+# Loading work.adc_to_fixed
+# Loading work.higher_order_difference_n
+# Loading work.modulo_residual_piped
+# Loading work.mod_divide
+# Loading work.lpm_divide
+# Loading work.LPM_HINT_EVALUATION
+# Loading work.anti_difference_stage
+# Loading work.anti_difference_rounding
+# Loading work.anti_diff_div
+# Loading work.moving_average
+# Loading work.avg_div
+# Loading work.fixed_to_dac
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/Higher_orders/tb_piped_n.sv(26): [PCDPC] - Port size (8) does not match connection size (32) for port 'dac_out'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Higher_orders/top_piped_n2.sv(16).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut File: D:/year4/fyp/ADC_ref/Final_project/ip/Higher_orders/top_piped_n2.sv
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'denom'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(43).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_1/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (48) does not match connection size (32) for port 'quotient'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(45).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_1/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'remain'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(46).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_1/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'denom'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(43).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_2/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (48) does not match connection size (32) for port 'quotient'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(45).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_2/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'remain'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(46).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_2/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'denom'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(43).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_3/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (48) does not match connection size (32) for port 'quotient'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(45).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_3/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'remain'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(46).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_3/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+run -all
+# ** Note: $stop    : D:/year4/fyp/ADC_ref/Final_project/ip/Higher_orders/tb_piped_n.sv(139)
+#    Time: 17180 ns  Iteration: 0  Instance: /aa_tb_top_pipe_n
+# Break in Module aa_tb_top_pipe_n at D:/year4/fyp/ADC_ref/Final_project/ip/Higher_orders/tb_piped_n.sv line 139
+# Compile of mod_divide.v was successful.
+# Compile of anti_diff_div.v was successful.
+# Compile of avg_div.v was successful.
+# Compile of anti_difference_stage.sv was successful.
+# Compile of HOD_n.sv was successful.
+# Compile of tb_piped_n.sv was successful.
+# Compile of top_piped_n2.sv was successful.
+# Compile of reconstruction_top.sv was successful.
+# Compile of adc_to_fixed.sv was successful.
+# Compile of anti_difference_rounding.sv was successful.
+# Compile of fixed_to_dac.sv was successful with warnings.
+# Compile of fixed_to_float.sv was successful.
+# Compile of floating_to_fixed.sv was successful.
+# Compile of higher_order_difference.sv was successful.
+# Compile of modulo_residual.sv was successful.
+# Compile of modulo_residual_piped.sv was successful.
+# Compile of moving_average.sv was successful.
+# Compile of 220model.v was successful.
+# 18 compiles, 0 failed with no errors.
+restart -f
+# Loading work.aa_tb_top_pipe_n
+# Loading work.reconstruction_top_pipelined_n
+# Loading work.adc_to_fixed
+# Loading work.higher_order_difference_n
+# Loading work.modulo_residual_piped
+# Loading work.mod_divide
+# Loading work.lpm_divide
+# Loading work.LPM_HINT_EVALUATION
+# Loading work.anti_difference_stage
+# Loading work.anti_difference_rounding
+# Loading work.anti_diff_div
+# Loading work.moving_average
+# Loading work.avg_div
+# Loading work.fixed_to_dac
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/Higher_orders/tb_piped_n.sv(26): [PCDPC] - Port size (8) does not match connection size (32) for port 'dac_out'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Higher_orders/top_piped_n2.sv(16).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut File: D:/year4/fyp/ADC_ref/Final_project/ip/Higher_orders/top_piped_n2.sv
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'denom'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(43).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_1/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (48) does not match connection size (32) for port 'quotient'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(45).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_1/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'remain'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(46).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_1/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'denom'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(43).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_2/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (48) does not match connection size (32) for port 'quotient'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(45).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_2/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'remain'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(46).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_2/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'denom'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(43).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_3/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (48) does not match connection size (32) for port 'quotient'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(45).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_3/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'remain'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(46).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_3/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+run -all
+# ** Note: $stop    : D:/year4/fyp/ADC_ref/Final_project/ip/Higher_orders/tb_piped_n.sv(139)
+#    Time: 17180 ns  Iteration: 0  Instance: /aa_tb_top_pipe_n
+# Break in Module aa_tb_top_pipe_n at D:/year4/fyp/ADC_ref/Final_project/ip/Higher_orders/tb_piped_n.sv line 139
+# Compile of mod_divide.v was successful.
+# Compile of anti_diff_div.v was successful.
+# Compile of avg_div.v was successful.
+# Compile of anti_difference_stage.sv was successful.
+# Compile of HOD_n.sv was successful.
+# Compile of tb_piped_n.sv was successful.
+# Compile of top_piped_n2.sv was successful.
+# Compile of reconstruction_top.sv was successful.
+# Compile of adc_to_fixed.sv was successful.
+# Compile of anti_difference_rounding.sv was successful.
+# Compile of fixed_to_dac.sv was successful with warnings.
+# Compile of fixed_to_float.sv was successful.
+# Compile of floating_to_fixed.sv was successful.
+# Compile of higher_order_difference.sv was successful.
+# Compile of modulo_residual.sv was successful.
+# Compile of modulo_residual_piped.sv was successful.
+# Compile of moving_average.sv was successful.
+# Compile of 220model.v was successful.
+# 18 compiles, 0 failed with no errors.
+restart -f
+# Loading work.aa_tb_top_pipe_n
+# Loading work.reconstruction_top_pipelined_n
+# Loading work.adc_to_fixed
+# Loading work.higher_order_difference_n
+# Loading work.modulo_residual_piped
+# Loading work.mod_divide
+# Loading work.lpm_divide
+# Loading work.LPM_HINT_EVALUATION
+# Loading work.anti_difference_stage
+# Loading work.anti_difference_rounding
+# Loading work.anti_diff_div
+# Loading work.moving_average
+# Loading work.avg_div
+# Loading work.fixed_to_dac
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/Higher_orders/tb_piped_n.sv(26): [PCDPC] - Port size (8) does not match connection size (32) for port 'dac_out'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Higher_orders/top_piped_n2.sv(16).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut File: D:/year4/fyp/ADC_ref/Final_project/ip/Higher_orders/top_piped_n2.sv
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'denom'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(43).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_1/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (48) does not match connection size (32) for port 'quotient'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(45).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_1/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'remain'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(46).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_1/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'denom'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(43).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_2/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (48) does not match connection size (32) for port 'quotient'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(45).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_2/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'remain'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(46).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_2/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'denom'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(43).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_3/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (48) does not match connection size (32) for port 'quotient'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(45).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_3/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'remain'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(46).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_3/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+run -all
+# ** Note: $stop    : D:/year4/fyp/ADC_ref/Final_project/ip/Higher_orders/tb_piped_n.sv(139)
+#    Time: 17180 ns  Iteration: 0  Instance: /aa_tb_top_pipe_n
+# Break in Module aa_tb_top_pipe_n at D:/year4/fyp/ADC_ref/Final_project/ip/Higher_orders/tb_piped_n.sv line 139
+# Compile of mod_divide.v was successful.
+# Compile of anti_diff_div.v was successful.
+# Compile of avg_div.v was successful.
+# Compile of anti_difference_stage.sv was successful.
+# Compile of HOD_n.sv was successful.
+# Compile of tb_piped_n.sv was successful.
+# Compile of top_piped_n2.sv was successful.
+# Compile of reconstruction_top.sv was successful.
+# Compile of adc_to_fixed.sv was successful.
+# Compile of anti_difference_rounding.sv was successful.
+# Compile of fixed_to_dac.sv was successful with warnings.
+# Compile of fixed_to_float.sv was successful.
+# Compile of floating_to_fixed.sv was successful.
+# Compile of higher_order_difference.sv was successful.
+# Compile of modulo_residual.sv was successful.
+# Compile of modulo_residual_piped.sv was successful.
+# Compile of moving_average.sv was successful.
+# Compile of 220model.v was successful.
+# 18 compiles, 0 failed with no errors.
+run -all
+# Break key hit
+# Simulation stop requested.
+restart -f
+# Loading work.aa_tb_top_pipe_n
+# Loading work.reconstruction_top_pipelined_n
+# Loading work.adc_to_fixed
+# Loading work.higher_order_difference_n
+# Loading work.modulo_residual_piped
+# Loading work.mod_divide
+# Loading work.lpm_divide
+# Loading work.LPM_HINT_EVALUATION
+# Loading work.anti_difference_stage
+# Loading work.anti_difference_rounding
+# Loading work.anti_diff_div
+# Loading work.moving_average
+# Loading work.avg_div
+# Loading work.fixed_to_dac
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/Higher_orders/tb_piped_n.sv(26): [PCDPC] - Port size (8) does not match connection size (32) for port 'dac_out'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Higher_orders/top_piped_n2.sv(16).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut File: D:/year4/fyp/ADC_ref/Final_project/ip/Higher_orders/top_piped_n2.sv
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'denom'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(43).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_1/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (48) does not match connection size (32) for port 'quotient'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(45).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_1/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'remain'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(46).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_1/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'denom'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(43).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_2/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (48) does not match connection size (32) for port 'quotient'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(45).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_2/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'remain'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(46).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_2/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'denom'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(43).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_3/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (48) does not match connection size (32) for port 'quotient'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(45).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_3/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'remain'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(46).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_3/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+run -all
+# ** Note: $stop    : D:/year4/fyp/ADC_ref/Final_project/ip/Higher_orders/tb_piped_n.sv(139)
+#    Time: 17180 ns  Iteration: 0  Instance: /aa_tb_top_pipe_n
+# Break in Module aa_tb_top_pipe_n at D:/year4/fyp/ADC_ref/Final_project/ip/Higher_orders/tb_piped_n.sv line 139
+# Compile of mod_divide.v was successful.
+# Compile of anti_diff_div.v was successful.
+# Compile of avg_div.v was successful.
+# Compile of anti_difference_stage.sv was successful.
+# Compile of HOD_n.sv was successful.
+# Compile of tb_piped_n.sv was successful.
+# Compile of top_piped_n2.sv was successful.
+# Compile of reconstruction_top.sv was successful.
+# Compile of adc_to_fixed.sv was successful.
+# Compile of anti_difference_rounding.sv was successful.
+# Compile of fixed_to_dac.sv was successful with warnings.
+# Compile of fixed_to_float.sv was successful.
+# Compile of floating_to_fixed.sv was successful.
+# Compile of higher_order_difference.sv was successful.
+# Compile of modulo_residual.sv was successful.
+# Compile of modulo_residual_piped.sv was successful.
+# Compile of moving_average.sv was successful.
+# Compile of 220model.v was successful.
+# 18 compiles, 0 failed with no errors.
+restart -f
+# Loading work.aa_tb_top_pipe_n
+# Loading work.reconstruction_top_pipelined_n
+# Loading work.adc_to_fixed
+# Loading work.higher_order_difference_n
+# Loading work.modulo_residual_piped
+# Loading work.mod_divide
+# Loading work.lpm_divide
+# Loading work.LPM_HINT_EVALUATION
+# Loading work.anti_difference_stage
+# Loading work.anti_difference_rounding
+# Loading work.anti_diff_div
+# Loading work.moving_average
+# Loading work.avg_div
+# Loading work.fixed_to_dac
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/Higher_orders/tb_piped_n.sv(26): [PCDPC] - Port size (8) does not match connection size (32) for port 'dac_out'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Higher_orders/top_piped_n2.sv(16).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut File: D:/year4/fyp/ADC_ref/Final_project/ip/Higher_orders/top_piped_n2.sv
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'denom'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(43).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_1/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (48) does not match connection size (32) for port 'quotient'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(45).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_1/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'remain'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(46).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_1/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'denom'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(43).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_2/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (48) does not match connection size (32) for port 'quotient'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(45).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_2/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'remain'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(46).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_2/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'denom'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(43).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_3/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (48) does not match connection size (32) for port 'quotient'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(45).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_3/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'remain'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(46).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_3/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+run -all
+# ** Note: $stop    : D:/year4/fyp/ADC_ref/Final_project/ip/Higher_orders/tb_piped_n.sv(139)
+#    Time: 17180 ns  Iteration: 0  Instance: /aa_tb_top_pipe_n
+# Break in Module aa_tb_top_pipe_n at D:/year4/fyp/ADC_ref/Final_project/ip/Higher_orders/tb_piped_n.sv line 139
+# Compile of mod_divide.v was successful.
+# Compile of anti_diff_div.v was successful.
+# Compile of avg_div.v was successful.
+# Compile of anti_difference_stage.sv was successful.
+# Compile of HOD_n.sv was successful.
+# Compile of tb_piped_n.sv was successful.
+# Compile of top_piped_n2.sv was successful.
+# Compile of reconstruction_top.sv was successful.
+# Compile of adc_to_fixed.sv was successful.
+# Compile of anti_difference_rounding.sv was successful.
+# Compile of fixed_to_dac.sv was successful with warnings.
+# Compile of fixed_to_float.sv was successful.
+# Compile of floating_to_fixed.sv was successful.
+# Compile of higher_order_difference.sv was successful.
+# Compile of modulo_residual.sv was successful.
+# Compile of modulo_residual_piped.sv was successful.
+# Compile of moving_average.sv was successful.
+# Compile of 220model.v was successful.
+# 18 compiles, 0 failed with no errors.
+restart -f
+# Loading work.aa_tb_top_pipe_n
+# Loading work.reconstruction_top_pipelined_n
+# Loading work.adc_to_fixed
+# Loading work.higher_order_difference_n
+# Loading work.modulo_residual_piped
+# Loading work.mod_divide
+# Loading work.lpm_divide
+# Loading work.LPM_HINT_EVALUATION
+# Loading work.anti_difference_stage
+# Loading work.anti_difference_rounding
+# Loading work.anti_diff_div
+# Loading work.moving_average
+# Loading work.avg_div
+# Loading work.fixed_to_dac
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/Higher_orders/tb_piped_n.sv(26): [PCDPC] - Port size (8) does not match connection size (32) for port 'dac_out'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Higher_orders/top_piped_n2.sv(16).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut File: D:/year4/fyp/ADC_ref/Final_project/ip/Higher_orders/top_piped_n2.sv
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'denom'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(43).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_1/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (48) does not match connection size (32) for port 'quotient'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(45).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_1/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'remain'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(46).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_1/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'denom'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(43).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_2/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (48) does not match connection size (32) for port 'quotient'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(45).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_2/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'remain'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(46).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_2/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'denom'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(43).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_3/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (48) does not match connection size (32) for port 'quotient'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(45).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_3/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'remain'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(46).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_3/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+run -all
+# ** Note: $stop    : D:/year4/fyp/ADC_ref/Final_project/ip/Higher_orders/tb_piped_n.sv(139)
+#    Time: 17180 ns  Iteration: 0  Instance: /aa_tb_top_pipe_n
+# Break in Module aa_tb_top_pipe_n at D:/year4/fyp/ADC_ref/Final_project/ip/Higher_orders/tb_piped_n.sv line 139
+add wave -position end  sim:/aa_tb_top_pipe_n/uut/stage_1/anti_diff/quotient
+add wave -position end  sim:/aa_tb_top_pipe_n/uut/stage_1/anti_diff/residual
+restart -f
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/Higher_orders/tb_piped_n.sv(26): [PCDPC] - Port size (8) does not match connection size (32) for port 'dac_out'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Higher_orders/top_piped_n2.sv(16).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut File: D:/year4/fyp/ADC_ref/Final_project/ip/Higher_orders/top_piped_n2.sv
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'denom'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(43).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_1/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (48) does not match connection size (32) for port 'quotient'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(45).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_1/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'remain'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(46).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_1/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'denom'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(43).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_2/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (48) does not match connection size (32) for port 'quotient'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(45).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_2/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'remain'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(46).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_2/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'denom'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(43).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_3/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (48) does not match connection size (32) for port 'quotient'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(45).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_3/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'remain'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(46).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_3/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+run -all
+# ** Note: $stop    : D:/year4/fyp/ADC_ref/Final_project/ip/Higher_orders/tb_piped_n.sv(139)
+#    Time: 17180 ns  Iteration: 0  Instance: /aa_tb_top_pipe_n
+# Break in Module aa_tb_top_pipe_n at D:/year4/fyp/ADC_ref/Final_project/ip/Higher_orders/tb_piped_n.sv line 139
+# Compile of mod_divide.v was successful.
+# Compile of anti_diff_div.v was successful.
+# Compile of avg_div.v was successful.
+# Compile of anti_difference_stage.sv was successful.
+# Compile of HOD_n.sv was successful.
+# Compile of tb_piped_n.sv was successful.
+# Compile of top_piped_n2.sv was successful.
+# Compile of reconstruction_top.sv was successful.
+# Compile of adc_to_fixed.sv was successful.
+# Compile of anti_difference_rounding.sv was successful.
+# Compile of fixed_to_dac.sv was successful with warnings.
+# Compile of fixed_to_float.sv was successful.
+# Compile of floating_to_fixed.sv was successful.
+# Compile of higher_order_difference.sv was successful.
+# Compile of modulo_residual.sv was successful.
+# Compile of modulo_residual_piped.sv was successful.
+# Compile of moving_average.sv was successful.
+# Compile of 220model.v was successful.
+# 18 compiles, 0 failed with no errors.
+restart -f
+# Loading work.aa_tb_top_pipe_n
+# Loading work.reconstruction_top_pipelined_n
+# Loading work.adc_to_fixed
+# Loading work.higher_order_difference_n
+# Loading work.modulo_residual_piped
+# Loading work.mod_divide
+# Loading work.lpm_divide
+# Loading work.LPM_HINT_EVALUATION
+# Loading work.anti_difference_stage
+# Loading work.anti_difference_rounding
+# Loading work.anti_diff_div
+# Loading work.moving_average
+# Loading work.avg_div
+# Loading work.fixed_to_dac
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/Higher_orders/tb_piped_n.sv(26): [PCDPC] - Port size (8) does not match connection size (32) for port 'dac_out'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Higher_orders/top_piped_n2.sv(16).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut File: D:/year4/fyp/ADC_ref/Final_project/ip/Higher_orders/top_piped_n2.sv
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'denom'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(43).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_1/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (48) does not match connection size (32) for port 'quotient'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(45).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_1/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'remain'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(46).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_1/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'denom'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(43).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_2/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (48) does not match connection size (32) for port 'quotient'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(45).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_2/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'remain'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(46).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_2/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'denom'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(43).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_3/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (48) does not match connection size (32) for port 'quotient'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(45).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_3/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+# ** Warning: (vsim-3015) D:/year4/fyp/ADC_ref/Final_project/ip/recon/moving_average.sv(35): [PCDPC] - Port size (24) does not match connection size (32) for port 'remain'. The port definition is at: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v(46).
+#    Time: 0 ps  Iteration: 0  Instance: /aa_tb_top_pipe_n/uut/stage_3/mov_avg/avg_div_inst File: D:/year4/fyp/ADC_ref/Final_project/ip/Divs/avg_div.v
+run -all
+# ** Note: $stop    : D:/year4/fyp/ADC_ref/Final_project/ip/Higher_orders/tb_piped_n.sv(139)
+#    Time: 17180 ns  Iteration: 0  Instance: /aa_tb_top_pipe_n
+# Break in Module aa_tb_top_pipe_n at D:/year4/fyp/ADC_ref/Final_project/ip/Higher_orders/tb_piped_n.sv line 139
+# End time: 19:40:24 on Jun 20,2025, Elapsed time: 19:48:19
+# Errors: 0, Warnings: 270
